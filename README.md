@@ -35,12 +35,18 @@ The dashboard provides a snapshot of key metrics and features, including:
 - Total number of orders
 - Quick navigation links to Products and Orders management pages
 
+- ![Home](https://github.com/Debanjan189/my-react-app/assets/96039020/49d79f73-4fdc-4065-933d-fdd2ca66f12a)
+
+
 ### Products Management
 
 The products management page allows for easy management of product listings, featuring:
 
 - A list of products with details such as name, category, price, and stock quantity (utilizing mock data)
 - Functionalities to add, edit, and delete products
+
+- ![products](https://github.com/Debanjan189/my-react-app/assets/96039020/5d537cf9-7b01-4b15-8970-025ffdbc13e9)
+
 
 ### Orders Management
 
@@ -49,12 +55,18 @@ The orders management page facilitates viewing and handling orders, showcasing:
 - A list of orders with details like order ID, customer name, order date, and status (using mock data)
 - Optional features include viewing order details, updating order status, and order deletion
 
+- ![orders](https://github.com/Debanjan189/my-react-app/assets/96039020/1fc2bf05-7cca-4c9a-b28c-11e461788d5a)
+
+
 ### Orders Calendar View (Optional)
 
 For added convenience, an optional orders calendar view is available, featuring:
 
 - A calendar interface displaying orders based on their expected delivery dates
 - Ability to click on a date to view all orders due for delivery that day
+
+- ![calendar](https://github.com/Debanjan189/my-react-app/assets/96039020/e975999f-e897-4030-be98-d2f9a5739681)
+
 
 ## Technology Stack
 
