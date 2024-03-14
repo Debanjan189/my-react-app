@@ -80,10 +80,10 @@ While you have the freedom to choose any technology or framework, we recommend u
 
 To get started with the project:
 
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Start the development server with `npm start`.
-4. Begin exploring and customizing the interface according to your business needs.
+
+1. Install dependencies using `npm install`.
+2. Start the development server with `npm start`.
+3. Begin exploring and customizing the interface according to your business needs.
 
 ## Features
 
