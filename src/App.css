@@ -36,3 +36,403 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* src/App.css */
+nav {
+  background-color: rgb(243, 40, 74);
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  /* display: inline; */
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+
+/* src/App.css */
+.dashboard-container {
+  padding: 20px;
+  min-height: 100vh;
+  color: white; /* Set text color to white for better visibility */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability on images */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: backgroundAnimation 10s linear infinite;
+  background-size: 100% 100%; 
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+
+
+
+/* Add these styles to your stylesheet */
+.login-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.card {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* src/App.css */
+
+.Menu{
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  color: #007bff; /* Set the color of the price */
+}
+
+
+.product-card {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+/* Orders.css */
+/* Orders.css */
+
+.OM{
+  text-align: center;
+}
+
+.order-table {
+  animation: fadeIn 0.5s ease-in-out;
+  
+  
+}
+.order-table tbody tr:hover {
+  background-color: lightblue;
+  transition: background-color 0.3s ease;
+}
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: linear-gradient(to right, #6D214F, #FFD166, #06D6A0, #277DA1);
+ 
+}
+
+.order-table th, .order-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #8ec81b;
+}
+
+.order-table th {
+  background-color: #e1ee31;
+}
+
+.order-table tbody tr:hover {
+  /* background-color: #c7d641; */
+  background-color: rgb(226, 174, 191);
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Products.css */
+
+/* Products.css */
+
+/* .centered-text {
+  text-align: center;
+  margin: 20px 0; 
+}/* Adjust margin as needed */
+
+
+.product-container {
+  background-color: rgb(243, 14, 220);
+  color: rgb(0, 30, 255); /* Set text color to white for better visibility on a dark background */
+  text-align: center;
+  
+}
+
+
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  text-align: center;
+}
+
+.product-card {
+  background-color: rgb(253, 115, 138); /* Dark background color for product cards */
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px red;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.product-card:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 3px solid #c30e0e;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+}
+
+.product-price {
+  font-size: 14px;
+  color: #ffc107; /* Yellow color for the price */
+}
+
+
+
+/* Add this to your existing CSS file or create a new one */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+  height: 80px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  
+  
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px; /* Adjust the gap between list items */
+}
+
+li {
+  font-size: 20px;
+}
+
+
+.search-bar  {
+  display: flex;
+  align-items: right;
+  margin-left: 20px; /* This will push the search bar to the right */
+  
+}
+
+.search-bar input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Adjust the color as needed */
+  color: #090ced;
+  cursor: pointer;
+}
+
+
+
+/* src/components/Dashboard.css */
+.dashboard-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* .dashboard-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.dashboard-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff; /* Adjust text color for better visibility */
+  padding: 20px;
+  font-size: 25px;
+}
+
+
+/* src/components/OrdersCalendar.css */
+.react-calendar__tile--active {
+  color: black !important;
+}
+
+.react-calendar__tile {
+  color: black;
+}
+
+/* src/components/OrdersCalendar.css */
+.orders-calendar-container {
+  text-align: center;
+}
+
+.calendar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
